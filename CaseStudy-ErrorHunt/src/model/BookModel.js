@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Library');
- mongoose.set('useFindAndModify', false);
+
+//mongoose.connect('mongodb://localhost:27017/Library');
+mongoose.connect('mongodb+srv://kavya:KavyaAtlas123@cluster0.s7eqb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+// mongoose.set('useFindAndModify', false);
 const Schema = mongoose.Schema;
 
 
